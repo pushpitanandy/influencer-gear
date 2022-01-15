@@ -195,3 +195,33 @@ nav a{
         width: 302px;
     }
 }
+
+/* responsive for tablet devices */
+@media (min-width:601px) and (max-width:990px) {
+    h2{
+      font-size: 35px;  
+    }
+    h1{
+        font-size: 40px;  
+        text-align: center;
+      }
+    .logo-bar{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+    }
+    .popular-collection a{
+        position: relative;
+        left: 195px
+    }
+    .popular-products{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .popular-item{
+        width: 302px;
+    }
+}
