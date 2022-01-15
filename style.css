@@ -91,6 +91,10 @@ nav a{
     margin-left: 115px;
     margin-right: 115px;
 }
+.popular-collection a{
+    position: absolute;
+    left: 1050px
+}
 .popular-products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -115,4 +119,10 @@ nav a{
 .shipping{
     color: #787885;
     line-height: 10px;
+}
+.see-more-button{
+    text-decoration: none;
+    color:#E02C6D;
+    padding: 10px 25px;
+    margin: 10px;
 }
