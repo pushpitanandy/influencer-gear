@@ -1,7 +1,6 @@
 /* common styles */
 body{
     font-family: 'Poppins', sans-serif;
-    /* margin: 35px; */
 }
 h1{
     font-size: 50px;
@@ -38,14 +37,14 @@ nav a{
     margin-left: 35px;
 }
 
-/* first section */
+/* first and last (optional) sections */
 .flexible-container{
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     }
 .half-width{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 60px;
 }
 .half-width img{
     width: 80%;
@@ -90,8 +89,7 @@ nav a{
 
 /* popular collection section */
 .popular-collection{
-    margin-left: 115px;
-    margin-right: 115px;
+    margin: 60px 115px;
 }
 .popular-collection a{
     position: relative;
