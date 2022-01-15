@@ -1,7 +1,7 @@
 /* common styles */
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 35px;
+    /* margin: 35px; */
 }
 h1{
     font-size: 50px;
@@ -27,6 +27,8 @@ h4{
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
     margin-left: 55px;
     margin-right: 30px;
 }
@@ -92,8 +94,8 @@ nav a{
     margin-right: 115px;
 }
 .popular-collection a{
-    position: absolute;
-    left: 1050px
+    position: relative;
+    left: 900px
 }
 .popular-products{
     display: grid;
@@ -125,4 +127,20 @@ nav a{
     color:#E02C6D;
     padding: 10px 25px;
     margin: 10px;
+}
+
+/* footer section */
+.footer-section{
+    text-align: center;
+    background-color: rgb(1, 1, 24);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-section a{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.116);
+    margin: 16px;
+    padding: 5px 8px;
+    border-radius: 30px;
 }
